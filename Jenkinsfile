@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from GitHub
-                git branch: 'main', url: 'https://github.com/username/MymavenWebApp01.git'
+                git branch: 'main', url: 'https://github.com/imsudeeppatil/tomcat.git'
             }
         }
 
