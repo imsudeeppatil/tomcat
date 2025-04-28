@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.6.3'  // Use the Maven tool configured earlier
-        jdk 'JDK 11'         // Use the JDK tool configured earlier
+        maven 'Maven'  // Use the Maven tool configured earlier
+        jdk 'JDK'         // Use the JDK tool configured earlier
     }
 
     environment {
